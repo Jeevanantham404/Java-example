@@ -1,1 +1,14 @@
+1.Home and name Printer:
 
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        String name=jee.nextLine();
+        System.out.println("Hello");
+        System.out.println(name);
+    }
+}
