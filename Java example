@@ -12,3 +12,164 @@ public class Solution {
         System.out.println(name);
     }
 }
+
+2.Value Performance 1:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        int A=jee.nextInt();
+        float B=jee.nextFloat();
+        System.out.println(A);
+        System.out.printf("%.2f",B);
+    }
+}
+
+3.Execute the word with a statement:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        String jeeva=jee.next();
+        System.out.println("May I know how to learn "+jeeva+"!!!...");
+    }
+}
+
+4.Execute the string statement:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        String jeeva=jee.nextLine();
+        System.out.println("Hai "+jeeva+"!    Welcome to Programming Language...");
+        
+    }
+}
+
+5.Math function:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        float A=jee.nextFloat();
+        int B=jee.nextInt();
+        int C=jee.nextInt();
+        int D=jee.nextInt();
+    System.out.println((int)Math.floor(A));
+    System.out.println((int)Math.ceil(A));
+    System.out.println((int)Math.sqrt(B));
+    System.out.println((int)Math.pow(C,D));
+    }
+}
+
+6.Float formation:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        float jeeva=jee.nextFloat();
+        System.out.printf("%2f\n",jeeva);
+        System.out.printf("%.4f\n",jeeva);
+        System.out.printf("%.2f\n",jeeva);
+        System.out.printf("%.0f",jeeva);
+        
+    }
+}
+
+7.Three idiots:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner jee = new Scanner(System.in);
+        double x1 = jee.nextDouble();
+        double y1 = jee.nextDouble();
+        double x2 = jee.nextDouble();
+        double y2 = jee.nextDouble();
+        double midX = (x1 + x2) / 2.0;
+        double midY = (y1 + y2) / 2.0;
+        System.out.printf("Binoy's house is located at (%.1f,%.1f)%n", midX, midY);
+    }
+}
+
+8.Profit calculator:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee = new Scanner(System.in);
+        int x = jee.nextInt();
+        int a = jee.nextInt();
+        int b = jee.nextInt();
+        double profit = (double)(x * a) - (x * b) - 100;
+        System.out.println("Number of copies sold:" + x);
+        System.out.println("Cost of each copy:" + a);
+        System.out.println("Cost spent by agency on each newspaper:" + b);
+        System.out.printf("The profit obtained is Rs.%.2f%n", profit);
+        
+    }
+}
+
+9.Area and perimeter of triangle:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee = new Scanner(System.in);
+        double base = jee.nextDouble();
+        double height = jee.nextDouble();
+        double side1 = jee.nextDouble();
+        double side2 = jee.nextDouble();
+        double side3 = jee.nextDouble();
+        double area = 0.5 * base * height;
+        double perimeter = side1 + side2 + side3;
+        System.out.printf("Area of Triangle is %.2f%n", area);
+        System.out.printf("Perimeter of Triangle is %.2f%n", perimeter);
+    }
+}
+
+10.Alice in wonderland:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee = new Scanner(System.in);
+        int J = jee.nextInt();
+        int A = J / 10;
+        int B = J % 10;
+        int C = A + B;
+        System.out.println("Bird said:"+J);
+        System.out.println("Alice must go in path-"+C);
+    }
+}
