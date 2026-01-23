@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        float A=jee.nextFloat();
+        int B=jee.nextInt();
+        int C=jee.nextInt();
+        int D=jee.nextInt();
+    System.out.println((int)Math.floor(A));
+    System.out.println((int)Math.ceil(A));
+    System.out.println((int)Math.sqrt(B));
+    System.out.println((int)Math.pow(C,D));
+    }
+}
