@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner jee = new Scanner(System.in);
+        double x1 = jee.nextDouble();
+        double y1 = jee.nextDouble();
+        double x2 = jee.nextDouble();
+        double y2 = jee.nextDouble();
+        double midX = (x1 + x2) / 2.0;
+        double midY = (y1 + y2) / 2.0;
+        System.out.printf("Binoy's house is located at (%.1f,%.1f)%n", midX, midY);
+    }
+}
