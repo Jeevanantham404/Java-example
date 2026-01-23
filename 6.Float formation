@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner jee=new Scanner(System.in);
+        float jeeva=jee.nextFloat();
+        System.out.printf("%2f\n",jeeva);
+        System.out.printf("%.4f\n",jeeva);
+        System.out.printf("%.2f\n",jeeva);
+        System.out.printf("%.0f",jeeva);
+        
+    }
+}
